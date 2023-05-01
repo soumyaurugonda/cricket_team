@@ -6,7 +6,7 @@ app.use(express.json())
 const path=require("path")
 const dbPath=path.join(__dirname,"cricketTeam.db")
 let db=null
-const initializeDbAndServer=async()=>{
+const initializeDBAndServer=async()=>{
     try{
         db=await open({
         filename:dbPath,
