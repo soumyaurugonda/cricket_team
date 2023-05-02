@@ -14,7 +14,7 @@ Content-Type:application/json
 }
 ###
 ///API 3
-GET http://localhost:3000/players/14/
+GET http://localhost:3000/players/10/
 
 ###
 ///API 4
